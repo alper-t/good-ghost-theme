@@ -3,10 +3,27 @@
 
 {{> "components/header" headerStyle=@custom.header_style}}
 
-{{#match @custom.header_style "!=" "Highlight"}}
-    {{> "components/featured" showFeatured=@custom.show_featured_posts limit=4}}
-{{/match}}
+<div style="margin-left: 10%; margin-top: 2%;">
 
-{{> "components/cta"}}
+    <hgroup>
+        <h1 style="color:#2563eb">Tech for creating our dreams</h3>
+        <p>Many small steps lead to great distances.</p>
+    </hgroup><small>I am extremely excited about...</small>
 
-{{> "components/post-list" feed="home" postFeedStyle=@custom.post_feed_style showTitle=true showSidebar=@custom.show_publication_info_sidebar}}
+    <p/>
+    
+    <ul><small>
+            <li>Getting ambitious things done.</li>
+        </small><small>
+            <li>Always having the long-term view.</li>
+        </small><small>
+            <li>Building long-term partnerships.</li>
+        </small><small>
+            <li>Investing in startups.</li>
+        </small><small>
+            <li>Improving the transparency and oversight of what we are accomplishing.</li>
+        </small><small>
+            <li>Working on projects for a <em style="color:#c026d3">sustainable</em> future.</li>
+        </small></ul><br />
+
+</div>
