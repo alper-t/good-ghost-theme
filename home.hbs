@@ -1,6 +1,22 @@
 {{!< default}} {{!-- The tag above means: insert everything in this file into the body of the default.hbs template --}}
     {{> "components/header" headerStyle=@custom.header_style}}
 
+    <style scoped>
+        .previous-clients {
+            display: grid; 
+            grid-template-columns: auto auto auto auto auto auto; 
+            margin-left: 4em; 
+            column-gap: 50px;"; 
+        }
+        @media (max-width: 991px) {
+            .previous-clients {
+                display: grid; 
+                grid-template-columns: auto auto; 
+                margin-left: 4em; 
+            }
+        }
+        </style>
+
 
     <main class="gh-main gh-outer">
 
@@ -82,8 +98,8 @@
 
             <h2 style="color:#2563eb; margin-top: 2em; margin-bottom: 2em;"> Previous Projects </h2>
 
-            <div style="columns: 6; margin-left: 4em">
-                <div class=>
+            <div class="previous-clients">
+                <div>
                     <img src="https://play-lh.googleusercontent.com/NJ5cpY42R-ddMCpbJZalqD47dI-0tO4RBSyxZ9Uft5K32Btf7BkVvniKt-2H-beOCuI"
                         style="height:100px;" />
                 </div>
