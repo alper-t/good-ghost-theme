@@ -1,7 +1,5 @@
-{{!< default}}
-{{!-- The tag above means: insert everything in this file into the body of the default.hbs template --}}
-
-{{> "components/header" headerStyle=@custom.header_style}}
+{{!< default}} {{!-- The tag above means: insert everything in this file into the body of the default.hbs template --}}
+    {{> "components/header" headerStyle=@custom.header_style}}
 
 
     <main class="gh-main gh-outer">
@@ -15,7 +13,7 @@
                 <p>Many small steps lead to great distances.</p>
                 <br />
             </hgroup>
-            
+
             <small>I am extremely excited about...</small>
 
             <ul>
@@ -36,11 +34,11 @@
 
             <br />
 
-        
 
-        <h2 style="color:#2563eb; margin-top: 1em;">Current Projects</h2>
 
-        <div class="gh-container" style="
+            <h2 style="color:#2563eb; margin-top: 1em;">Current Projects</h2>
+
+            <div class="gh-container" style="
         display: grid; 
         gap: 4vmin; 
         grid-template-columns: 50% 50%; 
@@ -48,68 +46,72 @@
         margin-right: 1em;
         ">
 
-            <div style="margin: 1em">
-                <center style="margin: 1em">
-                    <img src="https://www.alliander.com/content/uploads/dotcom/Alliander-logo-1.jpg"
-                        style="height: 120px;" />
-                </center>
+                <div style="margin: 1em">
+                    <center style="margin: 1em">
+                        <img src="https://www.alliander.com/content/uploads/dotcom/Alliander-logo-1.jpg"
+                            style="height: 120px;" />
+                    </center>
 
-                <hr />
+                    <hr />
 
-                <small>
-                    Building data-pipelines for the web app which provides insight into energy infrastructure for
-                    municipalities required for the energy transition.
-                </small>
+                    <small>
+                        Building data-pipelines for the web app which provides insight into energy infrastructure for
+                        municipalities required for the energy transition.
+                    </small>
+
+                </div>
+
+                <div style="margin: 1em">
+
+                    <center style="margin: 1em">
+                        <img src="https://www.groenezaken.com/storage/app/uploads/public/32d/eb0/83b/thumb__600_0_0_0_landscape.jpg"
+                            style="height: 120px" />
+                    </center>
+
+                    <hr />
+
+                    <small>
+                        Building a warehouse management application in order to be as efficient as possible when it
+                        comes to
+                        processing pre-owned devices and thus creating a circular economy.
+                    </small>
+                </div>
+
 
             </div>
 
-            <div style="margin: 1em">
+            <h2 style="color:#2563eb; margin-top: 2em; margin-bottom: 2em;"> Previous Projects </h2>
 
-                <center style="margin: 1em">
-                    <img src="https://www.groenezaken.com/storage/app/uploads/public/32d/eb0/83b/thumb__600_0_0_0_landscape.jpg"
-                        style="height: 120px" />
-                </center>
+            <div style="columns: 6; margin-left: 4em">
+                <div class=>
+                    <img src="https://play-lh.googleusercontent.com/NJ5cpY42R-ddMCpbJZalqD47dI-0tO4RBSyxZ9Uft5K32Btf7BkVvniKt-2H-beOCuI"
+                        style="height:100px;" />
+                </div>
+                <div>
+                    <img src="https://sefa.nl/wp-content/uploads/VodafoneZiggo.png" style="height:100px;" />
+                </div>
+                <div>
+                    <img src="https://cdn.worldvectorlogo.com/logos/prorail.svg" style="height:100px;" />
+                </div>
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Original_Adidas_logo.svg/1039px-Original_Adidas_logo.svg.png"
+                        style="height:100px;" />
+                </div>
+                <div>
+                    <img src="https://www.mn.nl/uploads/favicon.png" style="height:100px;" />
+                </div>
+                <div>
+                    <img src="https://www.inter-on.nl/wp-content/uploads/2019/11/Vattenfall-logo-300x251.png"
+                        style="height:100px;" />
+                </div>
 
-                <hr/>
-
-                <small>
-                    Building a warehouse management application in order to be as efficient as possible when it comes to
-                    processing pre-owned devices and thus creating a circular economy.
-                </small>
             </div>
-
 
         </div>
 
-</div>
 
-            {{!-- <h3 style="color:#2563eb">
-                Previous Projects
-            </h3> --}}
 
-        {{!-- <div class="grid">
-            <div>
-                <img src="https://play-lh.googleusercontent.com/NJ5cpY42R-ddMCpbJZalqD47dI-0tO4RBSyxZ9Uft5K32Btf7BkVvniKt-2H-beOCuI"
-                    style="height:60;" />
-            </div>
-            <div>
-                <img src="https://sefa.nl/wp-content/uploads/VodafoneZiggo.png" style="height:60;" />
-            </div>
-            <div>
-                <img src="https://cdn.worldvectorlogo.com/logos/prorail.svg" style="height:60;" />
-            </div>
-            <div>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Original_Adidas_logo.svg/1039px-Original_Adidas_logo.svg.png"
-                    style="height:60;" />
-            </div>
-            <div>
-                <img src="https://www.mn.nl/uploads/favicon.png" style="height:60;" />
-            </div>
-            <div>
-                <img src="https://www.inter-on.nl/wp-content/uploads/2019/11/Vattenfall-logo-300x251.png"
-                    style="height:60;" />
-            </div>
-        </div> --}}
+
 
 
     </main>
